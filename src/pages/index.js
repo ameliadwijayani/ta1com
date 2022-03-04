@@ -3,7 +3,7 @@ import Header from "./Header"
 import Footer from "./Footer"
 import "./Styles.css"
 
-import SEO from "./component/seo"
+import SEO from "./component/Seo"
 export default function Home() {
 
   function Card_Product(){
