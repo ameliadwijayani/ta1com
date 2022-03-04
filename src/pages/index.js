@@ -2,6 +2,8 @@ import React from "react"
 import Header from "./Header"
 import Footer from "./Footer"
 import "./Styles.css"
+
+import SEO from "./component/seo"
 export default function Home() {
 
   function Card_Product(){
@@ -115,6 +117,7 @@ export default function Home() {
   return (
     
   <div id="site-content">
+  <SEO title="Index" />
     <Header/>
    
     <img src="../cobabg.jpg" alt="Project 1" width="100%" height="1000" style={{float:"center"}}/>

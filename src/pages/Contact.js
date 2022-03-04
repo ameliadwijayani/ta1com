@@ -2,9 +2,12 @@ import React from 'react';
 import Header from "./Header"
 import Footer from "./Footer"
 
+import Seo from "./component/seo"
 export default function Contact() {
   return (
     <div id="site-content">
+        
+  <Seo title="Contact" />
 <Header/>
     <main className="main-content">
         <div className="page">

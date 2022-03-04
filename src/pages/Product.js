@@ -2,9 +2,14 @@ import React from 'react';
 import Header from "./Header"
 import Footer from "./Footer"
 import { graphql } from "gatsby";
+
+import Seo from "./component/seo"
 export default function Product({data}) {
+  console.log(data)
   return (
   <div id="site-content">
+    
+  <Seo title="Product" />
   <Header/>
   <main className="main-content">
     <div className="page">

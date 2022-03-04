@@ -4,8 +4,10 @@ import Footer from "./Footer"
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import "./Styles.css"
+import SEO from "./component/Seo"
 export default function About() {
   return <div id="site-content">
+  <SEO title="About" />
   <Header/>
 
   <Carousel
