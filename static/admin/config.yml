@@ -11,13 +11,13 @@ collections:
     folder: 'fileproduk'
     create: true
     slug: '{{title}}'
-    # media_folder: ''
-    # public_folder: ''
-    # path: '{{title}}/index'
-    # editor:
-    #   preview: false
+    media_folder: ''
+    public_folder: ''
+    path: '{{title}}/index'
+    editor:
+      preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Images', name: 'images', widget: 'image' }
+      - { label: 'Deskripsi', name: 'deskripsi', widget: 'string' }
+     

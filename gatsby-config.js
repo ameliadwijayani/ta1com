@@ -14,6 +14,12 @@ module.exports = {
   },
   plugins: [
     
+    `Gatsby-plugin-sharp`,
+    `gatsby-plugin-image`,
+    `gatsby-transformer-remark`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-netlify-cms`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -35,12 +41,5 @@ module.exports = {
         path: `${__dirname}/fileproduk`,
       },
     },
-   
-    `gatsby-plugin-image`,
-    `gatsby-transformer-remark`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    `gatsby-plugin-sitemap`,
-    `gatsby-plugin-netlify-cms`
   ],
 }
